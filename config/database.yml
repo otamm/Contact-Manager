@@ -1,0 +1,26 @@
+#databased used on the development environment:
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: contact_manager_development
+  pool: 5
+  username:
+  password:
+
+#database used on the test environment:
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: contact_manager_test
+  pool: 5
+  username:
+  password:
+
+  #database used on the production environment:
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: contact_manager_production
+  pool: 5
+  username:
+  password:
